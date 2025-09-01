@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				rubamin: {
+					red: 'hsl(var(--rubamin-red))',
+					green: 'hsl(var(--rubamin-green))',
+					dark: 'hsl(var(--rubamin-dark))',
+					gray: 'hsl(var(--rubamin-gray))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
