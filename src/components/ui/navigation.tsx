@@ -45,7 +45,7 @@ export const Navigation = ({ className }: NavigationProps) => {
   };
 
   return (
-    <nav className={`bg-transparent ${className}`}>
+    <nav className={`fixed top-0 left-0 right-0 bg-transparent z-50 ${className}`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}

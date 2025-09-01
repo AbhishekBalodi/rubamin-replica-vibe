@@ -1,15 +1,17 @@
 import { Footer } from "@/components/ui/footer";
+import { Navigation } from "@/components/ui/navigation";
 import businessBg from "@/assets/business-bg.jpg";
 
 const Business = () => {
   return (
     <div className="min-h-screen bg-background relative">
+      <Navigation />
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${businessBg})` }}
       />
       <div className="absolute inset-0 bg-black/40" />
-      <div className="relative z-10 container mx-auto px-4 py-20">
+      <div className="relative z-10 container mx-auto px-4 pt-32 pb-20">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">
             Our Business
