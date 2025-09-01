@@ -1,11 +1,9 @@
-import { Navigation } from "@/components/ui/navigation";
 import { HeroSection } from "@/components/ui/hero-section";
 import { WasteToValueSection } from "@/components/ui/waste-to-value-section";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Navigation />
       <main>
         <HeroSection />
         <WasteToValueSection />

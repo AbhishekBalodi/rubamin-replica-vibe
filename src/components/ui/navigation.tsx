@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -23,23 +24,23 @@ export const Navigation = ({ className }: NavigationProps) => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="flex items-center">
+            <Link to="/" className="flex items-center">
               <div className="w-8 h-8 bg-rubamin-red rounded-sm flex items-center justify-center mr-3">
                 <span className="text-white font-bold text-lg">+</span>
               </div>
               <span className="text-xl font-bold text-rubamin-dark tracking-wider">
                 RUBAMIN
               </span>
-            </div>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navigationItems.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className="text-rubamin-dark hover:text-rubamin-green px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
                 >
                   {item.name}
@@ -48,7 +49,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                       <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   )}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
@@ -71,14 +72,14 @@ export const Navigation = ({ className }: NavigationProps) => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t">
               {navigationItems.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className="text-rubamin-dark hover:text-rubamin-green block px-3 py-2 text-base font-medium transition-colors duration-200"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
