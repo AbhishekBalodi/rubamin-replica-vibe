@@ -45,7 +45,7 @@ export const Navigation = ({ className }: NavigationProps) => {
   };
 
   return (
-    <nav className={`bg-white shadow-sm border-b ${className}`}>
+    <nav className={`bg-transparent ${className}`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -54,7 +54,7 @@ export const Navigation = ({ className }: NavigationProps) => {
               <div className="w-8 h-8 bg-rubamin-red rounded-sm flex items-center justify-center mr-3">
                 <span className="text-white font-bold text-lg">+</span>
               </div>
-              <span className="text-xl font-bold text-rubamin-dark tracking-wider">
+              <span className="text-xl font-bold text-white font-roboto tracking-wider">
                 RUBAMIN
               </span>
             </Link>
@@ -72,12 +72,13 @@ export const Navigation = ({ className }: NavigationProps) => {
                 >
                   <Link
                     to={item.href}
-                    className="text-rubamin-dark hover:text-rubamin-green px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
+                    className="font-roboto text-white hover:text-white px-3 py-2 text-sm font-normal transition-all duration-200 flex items-center relative group"
                   >
                     {item.name}
                     {item.hasDropdown && (
                       <ChevronDown className="ml-1 w-3 h-3" />
                     )}
+                    <span className="absolute bottom-0 left-1/2 w-0 h-1 bg-rubamin-red transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                   </Link>
                   
                   {/* Dropdown Menu */}
@@ -107,7 +108,7 @@ export const Navigation = ({ className }: NavigationProps) => {
               variant="ghost"
               size="sm"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-rubamin-dark"
+              className="text-white"
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
@@ -122,7 +123,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                 <div key={item.name}>
                   <Link
                     to={item.href}
-                    className="text-rubamin-dark hover:text-rubamin-green block px-3 py-2 text-base font-medium transition-colors duration-200"
+                    className="font-roboto text-white hover:text-rubamin-red block px-3 py-2 text-base font-normal transition-colors duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}
@@ -133,7 +134,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                         <Link
                           key={dropdownItem.name}
                           to={dropdownItem.href}
-                          className="text-rubamin-dark hover:text-rubamin-green block px-3 py-2 text-sm transition-colors duration-200"
+                          className="font-roboto text-white hover:text-rubamin-red block px-3 py-2 text-sm font-normal transition-colors duration-200"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {dropdownItem.name}
