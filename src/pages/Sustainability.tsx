@@ -1,3 +1,5 @@
+import { Footer } from "@/components/ui/footer";
+
 const Sustainability = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -56,6 +58,7 @@ const Sustainability = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

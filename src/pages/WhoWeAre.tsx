@@ -1,3 +1,5 @@
+import { Footer } from "@/components/ui/footer";
+
 const WhoWeAre = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -69,6 +71,7 @@ const WhoWeAre = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

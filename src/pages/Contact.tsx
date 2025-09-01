@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Footer } from "@/components/ui/footer";
 
 const Contact = () => {
   return (
@@ -125,10 +126,11 @@ const Contact = () => {
                   </Button>
                 </CardContent>
               </Card>
-            </div>
           </div>
         </div>
       </div>
+      <Footer />
+    </div>
     </div>
   );
 };

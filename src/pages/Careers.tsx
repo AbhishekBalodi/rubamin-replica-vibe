@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/ui/footer";
 
 const Careers = () => {
   const jobOpenings = [
@@ -92,10 +93,11 @@ const Careers = () => {
               <Button className="bg-rubamin-green hover:bg-rubamin-green/90 text-white">
                 Submit General Application
               </Button>
-            </div>
           </div>
         </div>
       </div>
+      <Footer />
+    </div>
     </div>
   );
 };

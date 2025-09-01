@@ -1,3 +1,5 @@
+import { Footer } from "@/components/ui/footer";
+
 const Business = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -38,6 +40,7 @@ const Business = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

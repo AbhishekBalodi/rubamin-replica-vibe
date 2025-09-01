@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/ui/hero-section";
 import { WasteToValueSection } from "@/components/ui/waste-to-value-section";
+import { Footer } from "@/components/ui/footer";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
         <HeroSection />
         <WasteToValueSection />
       </main>
+      <Footer />
     </div>
   );
 };
