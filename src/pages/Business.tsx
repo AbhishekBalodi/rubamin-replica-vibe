@@ -1,15 +1,21 @@
 import { Footer } from "@/components/ui/footer";
+import businessBg from "@/assets/business-bg.jpg";
 
 const Business = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-20">
+    <div className="min-h-screen bg-background relative">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${businessBg})` }}
+      />
+      <div className="absolute inset-0 bg-black/40" />
+      <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-rubamin-dark mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">
             Our Business
           </h1>
           
-          <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
+          <div className="space-y-8 text-lg text-white leading-relaxed">
             <p>
               Rubamin is pioneering the circular economy for strategic metals through advanced 
               recycling technologies. We transform industrial waste into valuable resources, 
@@ -38,8 +44,8 @@ const Business = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
+    </div>
       <Footer />
     </div>
   );
