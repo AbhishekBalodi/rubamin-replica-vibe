@@ -1,6 +1,16 @@
 import { Footer } from "@/components/ui/footer";
 import { Navigation } from "@/components/ui/navigation";
 import businessBg from "@/assets/business-bg.jpg";
+import boardMember1 from "@/assets/board-member-1.jpg";
+import boardMember2 from "@/assets/board-member-2.jpg";
+import boardMember3 from "@/assets/board-member-3.jpg";
+import boardMember4 from "@/assets/board-member-4.jpg";
+import boardMember5 from "@/assets/board-member-5.jpg";
+import boardMember6 from "@/assets/board-member-6.jpg";
+import boardMember7 from "@/assets/board-member-7.jpg";
+import boardMember8 from "@/assets/board-member-8.jpg";
+import boardMember9 from "@/assets/board-member-9.jpg";
+import researchLab from "@/assets/research-lab.jpg";
 
 const Business = () => {
   return (
@@ -237,40 +247,40 @@ const Business = () => {
           
           <div className="grid md:grid-cols-5 gap-8 mb-8">
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember1} alt="Mr. Atul Dalmia" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Atul Dalmia</h3>
               <p className="text-gray-600 text-sm">Chairman & Managing Director</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember2} alt="Mr. Anil Patel" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Anil Patel</h3>
               <p className="text-gray-600 text-sm">Managing Director</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember3} alt="Mr. Bhuwan Purohit" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Bhuwan Purohit</h3>
               <p className="text-gray-600 text-sm">Whole Time Director Corporate Strategy & Planning</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember4} alt="Mr. Suresh K. R." className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Suresh K. R.</h3>
               <p className="text-gray-600 text-sm">Whole Time Director & Business Head (Catalyst & Battery Recycling)</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember5} alt="Mr. Ranjit Singh" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Ranjit Singh</h3>
               <p className="text-gray-600 text-sm">Non-Executive Director</p>
@@ -279,32 +289,32 @@ const Business = () => {
           
           <div className="grid md:grid-cols-4 gap-8 justify-center">
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember6} alt="Ms. Priyanka Irani" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Ms. Priyanka Irani</h3>
               <p className="text-gray-600 text-sm">Non-Executive Director</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember7} alt="Mr. Soumitra Purkayastha" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Soumitra Purkayastha</h3>
               <p className="text-gray-600 text-sm">Non-Executive Director</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember8} alt="Mr. Milin Mehta" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Milin Mehta</h3>
               <p className="text-gray-600 text-sm">Non-Executive Director</p>
             </div>
             
             <div className="text-center">
-              <div className="w-48 h-64 bg-gray-200 mx-auto mb-4 rounded-lg overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-b from-gray-300 to-gray-400"></div>
+              <div className="w-48 h-64 mx-auto mb-4 rounded-lg overflow-hidden">
+                <img src={boardMember9} alt="Mr. Sanjay Dudhoria" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Mr. Sanjay Dudhoria</h3>
               <p className="text-gray-600 text-sm">Chief Financial Officer</p>
@@ -326,7 +336,7 @@ const Business = () => {
               </p>
             </div>
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <div className="h-64 bg-gradient-to-r from-gray-200 to-gray-300"></div>
+              <img src={researchLab} alt="Research Laboratory" className="w-full h-64 object-cover" />
             </div>
           </div>
         </div>
