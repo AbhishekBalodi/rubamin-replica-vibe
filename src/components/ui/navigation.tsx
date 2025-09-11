@@ -14,7 +14,7 @@ export const Navigation = ({ className }: NavigationProps) => {
   const navigationItems = [
     { 
       name: "Business", 
-      href: "/business", 
+      href: "/business/battery-recycling", 
       hasDropdown: true,
       dropdownItems: [
         { name: "Battery Recycling", href: "/business/battery-recycling" },
