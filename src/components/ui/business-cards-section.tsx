@@ -27,7 +27,7 @@ export const BusinessCardsSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-rubamin-dark mb-16 text-center">
+        <h2 className="text-4xl md:text-5xl font-bold text-techcorp-dark mb-16 text-center">
           Our Business
         </h2>
         

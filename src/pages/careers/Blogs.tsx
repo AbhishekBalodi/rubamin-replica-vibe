@@ -17,7 +17,7 @@ const Blogs = () => {
       category: "Sustainability",
       author: "Rajesh Kumar",
       image: "/api/placeholder/400/250",
-      excerpt: "How Rubamin's innovative approach is transforming industrial waste into valuable strategic metals, reducing environmental impact while meeting growing demand.",
+      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       readTime: "7 min read"
     },
     {
@@ -39,7 +39,7 @@ const Blogs = () => {
       readTime: "4 min read"
     },
     {
-      title: "Zero Waste Manufacturing: Rubamin's Environmental Commitment",
+      title: "Zero Waste Manufacturing: TECHCORP's Environmental Commitment",
       date: "November 30, 2024",
       category: "Environment",
       author: "Meera Joshi",
@@ -64,8 +64,8 @@ const Blogs = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-rubamin-dark mb-8">
-            Rubamin Blogs
+          <h1 className="text-4xl md:text-5xl font-bold text-techcorp-dark mb-8">
+            TECHCORP Blogs
           </h1>
           
           <div className="space-y-8">

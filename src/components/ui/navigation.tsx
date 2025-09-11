@@ -78,7 +78,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                     {item.hasDropdown && (
                       <ChevronDown className="ml-1 w-3 h-3" />
                     )}
-                    <span className="absolute bottom-0 left-1/2 w-0 h-1 bg-rubamin-red transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                    <span className="absolute bottom-0 left-1/2 w-0 h-1 bg-techcorp-red transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                   </Link>
                   
                   {/* Dropdown Menu */}
@@ -89,7 +89,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                           <Link
                             key={dropdownItem.name}
                             to={dropdownItem.href}
-                            className="block px-4 py-2 text-sm text-rubamin-dark hover:text-rubamin-green hover:bg-gray-50 transition-colors duration-200"
+                            className="block px-4 py-2 text-sm text-techcorp-dark hover:text-techcorp-green hover:bg-gray-50 transition-colors duration-200"
                           >
                             {dropdownItem.name}
                           </Link>
@@ -123,7 +123,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                 <div key={item.name}>
                   <Link
                     to={item.href}
-                    className="font-roboto text-white hover:text-rubamin-red block px-3 py-2 text-base font-normal transition-colors duration-200"
+                    className="font-roboto text-white hover:text-techcorp-red block px-3 py-2 text-base font-normal transition-colors duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}
@@ -134,7 +134,7 @@ export const Navigation = ({ className }: NavigationProps) => {
                         <Link
                           key={dropdownItem.name}
                           to={dropdownItem.href}
-                          className="font-roboto text-white hover:text-rubamin-red block px-3 py-2 text-sm font-normal transition-colors duration-200"
+                          className="font-roboto text-white hover:text-techcorp-red block px-3 py-2 text-sm font-normal transition-colors duration-200"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {dropdownItem.name}

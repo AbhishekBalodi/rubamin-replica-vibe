@@ -29,29 +29,28 @@ const Business = () => {
           
           <div className="space-y-8 text-lg text-white leading-relaxed">
             <p>
-              Rubamin is pioneering the circular economy for strategic metals through advanced 
-              recycling technologies. We transform industrial waste into valuable resources, 
-              creating sustainable supply chains for critical materials.
+              TECHCORP is pioneering the circular economy for strategic metals through advanced 
+              recycling technologies. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mt-12">
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-2xl font-bold text-rubamin-dark mb-4">Metal Recovery</h3>
+                <h3 className="text-2xl font-bold text-techcorp-dark mb-4">Metal Recovery</h3>
                 <p>Advanced processing of zinc, lithium, nickel, cobalt and other strategic metals from industrial waste streams.</p>
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-2xl font-bold text-rubamin-dark mb-4">Battery Recycling</h3>
+                <h3 className="text-2xl font-bold text-techcorp-dark mb-4">Battery Recycling</h3>
                 <p>Comprehensive lithium-ion battery recycling solutions for electric vehicles and energy storage systems.</p>
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-2xl font-bold text-rubamin-dark mb-4">Catalyst Processing</h3>
+                <h3 className="text-2xl font-bold text-techcorp-dark mb-4">Catalyst Processing</h3>
                 <p>Recovery of precious and strategic metals from spent catalysts used in oil refineries and chemical plants.</p>
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-md">
-                <h3 className="text-2xl font-bold text-rubamin-dark mb-4">Industrial Partnerships</h3>
+                <h3 className="text-2xl font-bold text-techcorp-dark mb-4">Industrial Partnerships</h3>
                 <p>End-to-end waste management solutions for manufacturing and processing industries.</p>
               </div>
             </div>
@@ -75,9 +74,7 @@ const Business = () => {
             
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed mb-12">
               <p>
-                Headquartered in Gujarat (India) Rubamin has evolved into an innovative and future-oriented business group that all its stakeholders can take pride in. 
-                Rubamin has been driven by its core purpose – "The joy of creating an institution". We owe our success to our team of dedicated and motivated employees 
-                but also acknowledge that we can be better and that this journey is unending.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. TECHCORP has been driven by its core purpose – "The joy of creating an institution". Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
               </p>
               
               <p>
@@ -145,7 +142,7 @@ const Business = () => {
                   <div className="w-1/2 pr-8 text-right">
                     <div className="bg-white border border-gray-300 rounded-lg p-4 inline-block">
                       <div className="text-2xl font-bold text-gray-800 mb-2">1987</div>
-                      <div className="text-gray-600">- Rubamin Incorporated</div>
+                      <div className="text-gray-600">- TECHCORP Incorporated</div>
                     </div>
                   </div>
                   <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-red-500 rounded-full"></div>
@@ -332,7 +329,7 @@ const Business = () => {
                 Research & Development
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Rubamin R&D programs are focussed to support our short-term and long-term business objectives. Our dedicated research team works on developing innovative solutions for metal recovery and recycling processes.
+                TECHCORP R&D programs are focussed to support our short-term and long-term business objectives. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">

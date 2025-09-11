@@ -43,7 +43,7 @@ const Contact = () => {
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-rubamin-dark mb-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-techcorp-dark mb-8 text-center">
             Contact Us
           </h1>
           
@@ -51,7 +51,7 @@ const Contact = () => {
             {/* Contact Form */}
             <Card>
               <CardHeader>
-                <CardTitle className="text-2xl text-rubamin-dark">Get in Touch</CardTitle>
+                <CardTitle className="text-2xl text-techcorp-dark">Get in Touch</CardTitle>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -202,9 +202,9 @@ const Contact = () => {
                 <CardContent className="pt-6">
                   <div className="space-y-6">
                     <div className="flex items-start space-x-4">
-                      <MapPin className="text-rubamin-green mt-1 h-5 w-5" />
+                      <MapPin className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
-                        <h4 className="font-bold text-rubamin-dark mb-2">Address</h4>
+                        <h4 className="font-bold text-techcorp-dark mb-2">Address</h4>
                         <p className="text-gray-700">
                           TechCorp Industries Ltd., Tech Plaza, 5th Floor,<br />
                           Innovation Drive, Suite 101,<br />
@@ -215,25 +215,25 @@ const Contact = () => {
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <Phone className="text-rubamin-green mt-1 h-5 w-5" />
+                      <Phone className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
-                        <h4 className="font-bold text-rubamin-dark mb-2">Phone Number</h4>
+                        <h4 className="font-bold text-techcorp-dark mb-2">Phone Number</h4>
                         <p className="text-gray-700">+1 415 555 0123</p>
                       </div>
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <Mail className="text-rubamin-green mt-1 h-5 w-5" />
+                      <Mail className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
-                        <h4 className="font-bold text-rubamin-dark mb-2">Email Address</h4>
+                        <h4 className="font-bold text-techcorp-dark mb-2">Email Address</h4>
                         <p className="text-gray-700">info@techcorp.com</p>
                       </div>
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <Building className="text-rubamin-green mt-1 h-5 w-5" />
+                      <Building className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
-                        <h4 className="font-bold text-rubamin-dark mb-2">Corporate Identity No</h4>
+                        <h4 className="font-bold text-techcorp-dark mb-2">Corporate Identity No</h4>
                         <p className="text-gray-700">TC24299CA2020PTC123456</p>
                       </div>
                     </div>

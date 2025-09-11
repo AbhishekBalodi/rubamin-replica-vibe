@@ -38,15 +38,15 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
-    /* Rubamin-specific colors */
-    --rubamin-red: 0 84% 56%;
-    --rubamin-green: 120 44% 42%;
-    --rubamin-dark: 213 31% 11%;
-    --rubamin-gray: 220 13% 91%;
+    /* TechCorp-specific colors */
+    --techcorp-red: 0 84% 56%;
+    --techcorp-green: 120 44% 42%;
+    --techcorp-dark: 213 31% 11%;
+    --techcorp-gray: 220 13% 91%;
     
     /* Gradients */
-    --hero-gradient: linear-gradient(135deg, hsl(var(--rubamin-dark)) 0%, hsl(var(--rubamin-dark) / 0.8) 100%);
-    --green-gradient: linear-gradient(135deg, hsl(var(--rubamin-green)) 0%, hsl(var(--rubamin-green) / 0.9) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(var(--techcorp-dark)) 0%, hsl(var(--techcorp-dark) / 0.8) 100%);
+    --green-gradient: linear-gradient(135deg, hsl(var(--techcorp-green)) 0%, hsl(var(--techcorp-green) / 0.9) 100%);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

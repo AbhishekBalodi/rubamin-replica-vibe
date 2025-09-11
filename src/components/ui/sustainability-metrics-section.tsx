@@ -36,7 +36,7 @@ export const SustainabilityMetricsSection = () => {
     },
     {
       title: "Governance",
-      description: "Rubamin focuses on improving transparency and accountability throughout its operations and works in compliance with all the statutory regulations with best-in-class governance practices.",
+      description: "TECHCORP focuses on improving transparency and accountability throughout its operations. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: governanceImg,
       link: "/sustainability#governance"
     }
@@ -49,10 +49,10 @@ export const SustainabilityMetricsSection = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           {metrics.map((metric, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-rubamin-red mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-techcorp-red mb-2">
                 {metric.value}
               </div>
-              <div className="text-xl font-semibold text-rubamin-dark mb-2">
+              <div className="text-xl font-semibold text-techcorp-dark mb-2">
                 {metric.label}
               </div>
               <div className="text-gray-600 text-sm">
@@ -76,7 +76,7 @@ export const SustainabilityMetricsSection = () => {
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-rubamin-dark mb-4">{pillar.title}</h3>
+                  <h3 className="text-2xl font-bold text-techcorp-dark mb-4">{pillar.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{pillar.description}</p>
                 </div>
               </div>

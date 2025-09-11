@@ -9,7 +9,7 @@ const MediaRoom = () => {
       excerpt: "Our commitment to zero-waste recycling and circular economy initiatives for strategic metals."
     },
     {
-      title: "Rubamin Expands Battery Recycling Capacity",
+      title: "TECHCORP Expands Battery Recycling Capacity",
       date: "December 10, 2024",
       type: "News",
       excerpt: "New facility addition increases lithium-ion battery processing capacity by 40%."
@@ -43,8 +43,8 @@ const MediaRoom = () => {
           </h1>
           
           <div className="space-y-8">
-            <p className="text-xl text-rubamin-green font-medium">
-              Latest news, press releases, and updates from Rubamin
+              <p className="text-xl text-techcorp-green font-medium">
+                Latest news, press releases, and updates from TECHCORP
             </p>
             
             <div className="bg-white p-8 rounded-lg shadow-md">

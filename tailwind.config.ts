@@ -52,11 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				rubamin: {
-					red: 'hsl(var(--rubamin-red))',
-					green: 'hsl(var(--rubamin-green))',
-					dark: 'hsl(var(--rubamin-dark))',
-					gray: 'hsl(var(--rubamin-gray))'
+				techcorp: {
+					red: 'hsl(var(--techcorp-red))',
+					green: 'hsl(var(--techcorp-green))',
+					dark: 'hsl(var(--techcorp-dark))',
+					gray: 'hsl(var(--techcorp-gray))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

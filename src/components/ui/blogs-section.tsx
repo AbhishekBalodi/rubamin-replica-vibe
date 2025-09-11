@@ -5,7 +5,7 @@ export const BlogsSection = () => {
   const blogs = [
     {
       title: "E-Bicycle Rally for a Plastic-Free Future!",
-      excerpt: "The Gujarat Pollution Control Board (GPCB), in collaboration with Rubamin and Ha...",
+      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
       image: blogImg1,
       link: "#"
     },
@@ -21,10 +21,10 @@ export const BlogsSection = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-rubamin-dark">
+          <h2 className="text-4xl md:text-5xl font-bold text-techcorp-dark">
             Our Blogs
           </h2>
-          <button className="text-rubamin-red hover:text-rubamin-red/80 font-medium underline">
+          <button className="text-techcorp-red hover:text-techcorp-red/80 font-medium underline">
             View More
           </button>
         </div>
@@ -41,7 +41,7 @@ export const BlogsSection = () => {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-rubamin-dark mb-3 group-hover:text-rubamin-red transition-colors">
+                  <h3 className="text-xl font-bold text-techcorp-dark mb-3 group-hover:text-techcorp-red transition-colors">
                     {blog.title}
                   </h3>
                   <p className="text-gray-600">{blog.excerpt}</p>
