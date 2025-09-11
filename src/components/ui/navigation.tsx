@@ -51,11 +51,11 @@ export const Navigation = ({ className }: NavigationProps) => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <div className="w-8 h-8 bg-rubamin-red rounded-sm flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">+</span>
+              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-green-500 rounded-sm flex items-center justify-center mr-3">
+                <span className="text-white font-bold text-lg">T</span>
               </div>
               <span className="text-xl font-bold text-white font-roboto tracking-wider">
-                RUBAMIN
+                TECHCORP
               </span>
             </Link>
           </div>

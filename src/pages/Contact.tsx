@@ -206,10 +206,10 @@ const Contact = () => {
                       <div>
                         <h4 className="font-bold text-rubamin-dark mb-2">Address</h4>
                         <p className="text-gray-700">
-                          Rubamin Private Limited, ARK, 4th Floor,<br />
-                          Sub-Plot No.1 Plot A/27, 28 & B/29 - 32<br />
-                          ParShree Krishna Industrial Estate Opp. BIDC,<br />
-                          Gorwa, Vadodara, Gujarat - 390016, India
+                          TechCorp Industries Ltd., Tech Plaza, 5th Floor,<br />
+                          Innovation Drive, Suite 101,<br />
+                          Silicon Valley Business District,<br />
+                          San Francisco, CA - 94105, USA
                         </p>
                       </div>
                     </div>
@@ -218,7 +218,7 @@ const Contact = () => {
                       <Phone className="text-rubamin-green mt-1 h-5 w-5" />
                       <div>
                         <h4 className="font-bold text-rubamin-dark mb-2">Phone Number</h4>
-                        <p className="text-gray-700">+91 265 2282078 - 82</p>
+                        <p className="text-gray-700">+1 415 555 0123</p>
                       </div>
                     </div>
                     
@@ -226,7 +226,7 @@ const Contact = () => {
                       <Mail className="text-rubamin-green mt-1 h-5 w-5" />
                       <div>
                         <h4 className="font-bold text-rubamin-dark mb-2">Email Address</h4>
-                        <p className="text-gray-700">connect@rubamin.com</p>
+                        <p className="text-gray-700">info@techcorp.com</p>
                       </div>
                     </div>
                     
@@ -234,7 +234,7 @@ const Contact = () => {
                       <Building className="text-rubamin-green mt-1 h-5 w-5" />
                       <div>
                         <h4 className="font-bold text-rubamin-dark mb-2">Corporate Identity No</h4>
-                        <p className="text-gray-700">U24299GJ1987PTC009942</p>
+                        <p className="text-gray-700">TC24299CA2020PTC123456</p>
                       </div>
                     </div>
                   </div>
