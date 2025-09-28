@@ -16,11 +16,11 @@ export const Footer = () => {
             </div>
             
             <div className="space-y-2 text-gray-300">
-              <p className="font-semibold text-white">TechCorp Industries Ltd.</p>
-              <p>Tech Plaza, 5th Floor,</p>
-              <p>Innovation Drive, Suite 101,</p>
-              <p>Silicon Valley Business District,</p>
-              <p>San Francisco, CA - 94105, USA</p>
+              <p className="font-semibold text-white">TECHCORP Industries Ltd.</p>
+              <p>Dummy Plaza, 10th Floor,</p>
+              <p>Lorem Street, Building 42,</p>
+              <p>Sample Business District,</p>
+              <p>Demo City, DC - 12345, USA</p>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ export const Footer = () => {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h3.819l6.545 4.91 6.545-4.91h3.819A1.636 1.636 0 0 1 24 5.457z"/>
                 </svg>
-                <span>info@techcorp.com</span>
+                <span>info@dummycompany.com</span>
               </div>
             </div>
 
@@ -129,20 +129,20 @@ export const Footer = () => {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                 </svg>
-                <span>+1-415-555-0123</span>
+                <span>+1-555-123-4567</span>
               </div>
               <div className="flex items-center space-x-2">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                 </svg>
-                <span>+1-415-555-0124</span>
+                <span>+1-555-987-6543</span>
               </div>
             </div>
           </div>
 
           {/* Copyright */}
           <div className="mt-8 pt-6 border-t border-gray-600 text-center text-gray-400 text-sm">
-            <p>© 2025 TECHCORP INDUSTRIES (Corporate Identity No: TC24299CA2020PTC123456) | <Link to="#" className="hover:text-white transition-colors">Sitemap</Link></p>
+            <p>© 2025 TECHCORP INDUSTRIES (Corporate Identity No: TC12345DM2020PTC987654) | <Link to="#" className="hover:text-white transition-colors">Sitemap</Link></p>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ const CatalystRecycling = () => {
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
             <p className="text-xl text-techcorp-green font-medium">
-              Recovering precious and strategic metals from spent industrial catalysts
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod
             </p>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -20,19 +20,19 @@ const CatalystRecycling = () => {
                 <div>
                   <h4 className="font-bold text-techcorp-dark mb-2">Petrochemical Catalysts</h4>
                   <ul className="space-y-1 text-gray-600">
-                    <li>• Hydrocracking catalysts</li>
-                    <li>• Reforming catalysts</li>
-                    <li>• Desulfurization catalysts</li>
-                    <li>• Isomerization catalysts</li>
+                    <li>• Lorem ipsum catalysts</li>
+                    <li>• Dolor sit catalysts</li>
+                    <li>• Amet consectetur catalysts</li>
+                    <li>• Adipiscing elit catalysts</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-bold text-techcorp-dark mb-2">Automotive Catalysts</h4>
+                  <h4 className="font-bold text-techcorp-dark mb-2">Sample Catalysts</h4>
                   <ul className="space-y-1 text-gray-600">
-                    <li>• Catalytic converters</li>
-                    <li>• Diesel particulate filters</li>
-                    <li>• SCR catalysts</li>
-                    <li>• Oxidation catalysts</li>
+                    <li>• Sed do eiusmod converters</li>
+                    <li>• Tempor incididunt filters</li>
+                    <li>• Ut labore catalysts</li>
+                    <li>• Et dolore catalysts</li>
                   </ul>
                 </div>
               </div>

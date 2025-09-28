@@ -4,14 +4,14 @@ import blogImg2 from "@/assets/blog-2.jpg";
 export const BlogsSection = () => {
   const blogs = [
     {
-      title: "E-Bicycle Rally for a Plastic-Free Future!",
+      title: "Lorem Ipsum Dolor Sit Amet Event",
       excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
       image: blogImg1,
       link: "#"
     },
     {
-      title: "We are extremely happy to welcome Mrs. Renuka Ramnath",
-      excerpt: "Welcoming distinguished guests and industry leaders to our facility...", 
+      title: "Consectetur Adipiscing Elit Welcome Event",
+      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt...",
       image: blogImg2,
       link: "#"
     }

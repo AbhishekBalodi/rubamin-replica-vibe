@@ -17,11 +17,11 @@ const Sustainability = () => {
             <div className="bg-techcorp-green/10 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-techcorp-dark mb-4">Our Environmental Commitment</h3>
               <ul className="space-y-3">
-                <li>• Zero liquid discharge facility design</li>
-                <li>• 75-acre green recycling complex in Gujarat</li>
-                <li>• Advanced emission control systems</li>
-                <li>• Renewable energy integration</li>
-                <li>• Waste-to-resource conversion technology</li>
+                <li>• Lorem ipsum dolor sit amet consectetur</li>
+                <li>• 120-acre demo facility complex in Sample State</li>
+                <li>• Advanced example control systems</li>
+                <li>• Dummy energy integration</li>
+                <li>• Sample-to-resource conversion technology</li>
               </ul>
             </div>
             
@@ -33,8 +33,8 @@ const Sustainability = () => {
                 </p>
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h4 className="font-bold text-techcorp-dark mb-2">Resource Recovery Rate</h4>
-                  <p className="text-3xl font-bold text-techcorp-green">95%+</p>
-                  <p className="text-sm text-gray-600">Average metal recovery from waste streams</p>
+                  <p className="text-3xl font-bold text-techcorp-green">82%+</p>
+                  <p className="text-sm text-gray-600">Lorem ipsum recovery from sample streams</p>
                 </div>
               </div>
               

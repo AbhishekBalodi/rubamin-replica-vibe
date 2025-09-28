@@ -206,10 +206,10 @@ const Contact = () => {
                       <div>
                         <h4 className="font-bold text-techcorp-dark mb-2">Address</h4>
                         <p className="text-gray-700">
-                          TechCorp Industries Ltd., Tech Plaza, 5th Floor,<br />
-                          Innovation Drive, Suite 101,<br />
-                          Silicon Valley Business District,<br />
-                          San Francisco, CA - 94105, USA
+                          TECHCORP Industries Ltd., Dummy Plaza, 10th Floor,<br />
+                          Lorem Street, Building 42,<br />
+                          Sample Business District,<br />
+                          Demo City, DC - 12345, USA
                         </p>
                       </div>
                     </div>
@@ -218,7 +218,7 @@ const Contact = () => {
                       <Phone className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
                         <h4 className="font-bold text-techcorp-dark mb-2">Phone Number</h4>
-                        <p className="text-gray-700">+1 415 555 0123</p>
+                        <p className="text-gray-700">+1 555 123 4567</p>
                       </div>
                     </div>
                     
@@ -226,7 +226,7 @@ const Contact = () => {
                       <Mail className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
                         <h4 className="font-bold text-techcorp-dark mb-2">Email Address</h4>
-                        <p className="text-gray-700">info@techcorp.com</p>
+                        <p className="text-gray-700">info@dummycompany.com</p>
                       </div>
                     </div>
                     
@@ -234,7 +234,7 @@ const Contact = () => {
                       <Building className="text-techcorp-green mt-1 h-5 w-5" />
                       <div>
                         <h4 className="font-bold text-techcorp-dark mb-2">Corporate Identity No</h4>
-                        <p className="text-gray-700">TC24299CA2020PTC123456</p>
+                        <p className="text-gray-700">TC12345DM2020PTC987654</p>
                       </div>
                     </div>
                   </div>

@@ -11,7 +11,7 @@ const ZincRecycling = () => {
           
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
             <p className="text-xl text-techcorp-green font-medium">
-              Leading zinc waste processing and recovery solutions
+              Lorem ipsum dolor sit amet consectetur adipiscing elit
             </p>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -20,21 +20,21 @@ const ZincRecycling = () => {
                 <div>
                   <h4 className="font-bold text-techcorp-dark mb-3">Industrial Sources</h4>
                   <ul className="space-y-2">
-                    <li>• Galvanizing plant waste</li>
-                    <li>• Zinc ash and skimmings</li>
-                    <li>• Steel plant dust</li>
-                    <li>• Zinc-bearing slags</li>
-                    <li>• EAF (Electric Arc Furnace) dust</li>
+                    <li>• Lorem ipsum dolor sit</li>
+                    <li>• Consectetur adipiscing elit</li>
+                    <li>• Sed do eiusmod tempor</li>
+                    <li>• Incididunt ut labore</li>
+                    <li>• Et dolore magna aliqua</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-bold text-techcorp-dark mb-3">Secondary Sources</h4>
                   <ul className="space-y-2">
-                    <li>• Zinc die-cast scrap</li>
-                    <li>• Galvanized steel scrap</li>
-                    <li>• Brass and bronze scrap</li>
-                    <li>• Zinc-carbon batteries</li>
-                    <li>• Chemical industry waste</li>
+                    <li>• Ut enim ad minim veniam</li>
+                    <li>• Quis nostrud exercitation</li>
+                    <li>• Ullamco laboris nisi</li>
+                    <li>• Ut aliquip ex ea commodo</li>
+                    <li>• Duis aute irure dolor</li>
                   </ul>
                 </div>
               </div>

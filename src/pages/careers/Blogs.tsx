@@ -3,19 +3,19 @@ import { Footer } from "@/components/ui/footer";
 const Blogs = () => {
   const blogPosts = [
     {
-      title: "The Future of Battery Recycling: Innovations in Lithium Recovery",
+      title: "Lorem Ipsum Dolor Sit Amet: Consectetur Adipiscing Elit",
       date: "January 18, 2025",
       category: "Technology",
-      author: "Dr. Priya Sharma",
+      author: "John Doe",
       image: "/api/placeholder/400/250",
-      excerpt: "Exploring breakthrough technologies that are revolutionizing how we recover lithium from spent batteries, creating a truly sustainable circular economy.",
+      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       readTime: "5 min read"
     },
     {
-      title: "Circular Economy in Action: From Waste to Strategic Resources",
+      title: "Sed Do Eiusmod Tempor: Incididunt Ut Labore Et Dolore",
       date: "January 10, 2025",
       category: "Sustainability",
-      author: "Rajesh Kumar",
+      author: "Jane Smith",
       image: "/api/placeholder/400/250",
       excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       readTime: "7 min read"
@@ -69,8 +69,8 @@ const Blogs = () => {
           </h1>
           
           <div className="space-y-8">
-            <p className="text-xl text-rubamin-green font-medium">
-              Insights on sustainable recycling, strategic metals, and the circular economy
+            <p className="text-xl text-techcorp-green font-medium">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             </p>
             
             {/* Category Filter */}

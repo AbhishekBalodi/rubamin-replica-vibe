@@ -6,31 +6,31 @@ export const SustainabilityMetricsSection = () => {
   const metrics = [
     {
       label: "GHG Emissions",
-      value: "2.08 tCO2/MT",
-      description: "Scope 1, Scope 2, and Scope 3 combined emissions for FY23-24"
+      value: "1.85 tCO2/MT",
+      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit"
     },
     {
       label: "Elemental Recovery", 
-      value: ">90%",
-      description: "Minimum recovery for all elements in all business units"
+      value: ">85%",
+      description: "Lorem ipsum dolor sit amet consectetur adipiscing"
     },
     {
       label: "Waste Treatment",
-      value: "50,000+ TPA", 
-      description: "Input of recyclables to all processes"
+      value: "45,000+ TPA", 
+      description: "Lorem ipsum dolor sit amet consectetur"
     }
   ];
 
   const sustainabilityPillars = [
     {
       title: "Environment",
-      description: "We believe that we should all be responsible stewards of the environment as it is our most important stakeholder. Our business model itself speaks of our belief and commitment.",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       image: environmentImg,
       link: "/sustainability#environment"
     },
     {
       title: "Social", 
-      description: "We are focused on meeting the highest standards for employee health and safety, and building a workplace that promotes diversity, inclusion, dignity, and respect.",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       image: socialImg,
       link: "/sustainability#social"
     },

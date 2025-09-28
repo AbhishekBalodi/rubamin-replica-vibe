@@ -3,16 +3,16 @@ import { Footer } from "@/components/ui/footer";
 const MediaRoom = () => {
   const mediaItems = [
     {
-      title: "Chairman's Message on Sustainability",
+      title: "Lorem Ipsum Dolor Sit Amet Message",
       date: "January 15, 2025",
       type: "Press Release",
-      excerpt: "Our commitment to zero-waste recycling and circular economy initiatives for strategic metals."
+      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     },
     {
-      title: "TECHCORP Expands Battery Recycling Capacity",
+      title: "TECHCORP Expands Dummy Processing Capacity",
       date: "December 10, 2024",
       type: "News",
-      excerpt: "New facility addition increases lithium-ion battery processing capacity by 40%."
+      excerpt: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor."
     },
     {
       title: "Award for Excellence in Environmental Stewardship",
@@ -51,13 +51,13 @@ const MediaRoom = () => {
               <h3 className="text-2xl font-bold text-techcorp-dark mb-6">Featured Story</h3>
               <div className="border-l-4 border-techcorp-green pl-6">
                 <h4 className="text-xl font-bold text-techcorp-dark mb-2">
-                  TECHCORP Achieves Milestone in Circular Economy Implementation
+                  TECHCORP Achieves Lorem Ipsum Dolor Sit Amet Implementation
                 </h4>
                 <p className="text-gray-600 mb-3">January 20, 2025 • Featured</p>
                 <p className="text-gray-700">
-                  TECHCORP has successfully processed over 100,000 tons of strategic metals through 
-                  its circular economy approach, setting new industry benchmarks for sustainable 
-                  resource recovery and environmental stewardship.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
             </div>

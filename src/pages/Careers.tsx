@@ -6,25 +6,25 @@ const Careers = () => {
     {
       title: "Process Engineer - Metals Recovery",
       department: "Engineering",
-      location: "Gujarat, India",
+      location: "Demo City, USA",
       type: "Full-time"
     },
     {
       title: "Environmental Compliance Manager",
       department: "Environment & Safety",
-      location: "Gujarat, India", 
+      location: "Demo City, USA",
       type: "Full-time"
     },
     {
       title: "Research Scientist - Battery Recycling",
       department: "R&D",
-      location: "Gujarat, India",
+      location: "Demo City, USA",
       type: "Full-time"
     },
     {
       title: "Operations Supervisor",
       department: "Operations",
-      location: "Gujarat, India",
+      location: "Demo City, USA",
       type: "Full-time"
     }
   ];
@@ -46,16 +46,16 @@ const Careers = () => {
               <h3 className="text-2xl font-bold text-techcorp-dark mb-4">Why Work With Us?</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <ul className="space-y-3">
-                  <li>• Cutting-edge recycling technology</li>
-                  <li>• Meaningful environmental impact</li>
-                  <li>• Professional development opportunities</li>
-                  <li>• Collaborative work environment</li>
+                  <li>• Lorem ipsum dolor sit amet</li>
+                  <li>• Consectetur adipiscing elit</li>
+                  <li>• Sed do eiusmod tempor incididunt</li>
+                  <li>• Ut labore et dolore magna</li>
                 </ul>
                 <ul className="space-y-3">
-                  <li>• Competitive compensation</li>
-                  <li>• Comprehensive benefits</li>
-                  <li>• Modern facilities in Gujarat</li>
-                  <li>• Innovation-driven culture</li>
+                  <li>• Aliqua ut enim ad minim</li>
+                  <li>• Veniam quis nostrud exercitation</li>
+                  <li>• Modern facilities in Demo City</li>
+                  <li>• Ullamco laboris nisi ut aliquip</li>
                 </ul>
               </div>
             </div>
