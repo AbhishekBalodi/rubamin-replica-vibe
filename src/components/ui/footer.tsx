@@ -12,11 +12,11 @@ export const Footer = () => {
               <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gradient-to-r from-blue-500 to-green-500 rounded-sm flex items-center justify-center mr-2 sm:mr-3">
                 <span className="text-white font-bold text-sm sm:text-lg">T</span>
               </div>
-              <span className="text-lg sm:text-xl font-bold tracking-wider">TECHCORP</span>
+              <span className="text-lg sm:text-xl font-bold tracking-wider">DUMMYCORP</span>
             </div>
             
             <div className="space-y-1 sm:space-y-2 text-sm sm:text-base text-gray-300">
-              <p className="font-semibold text-white">TECHCORP Industries Ltd.</p>
+              <p className="font-semibold text-white">DUMMYCORP Industries Ltd.</p>
               <p>Dummy Plaza, 10th Floor,</p>
               <p>Lorem Street, Building 42,</p>
               <p>Sample Business District,</p>
@@ -142,7 +142,7 @@ export const Footer = () => {
 
           {/* Copyright */}
           <div className="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-600 text-center text-gray-400 text-xs sm:text-sm">
-            <p>© 2025 TECHCORP INDUSTRIES (Corporate Identity No: TC12345DM2020PTC987654) | <Link to="#" className="hover:text-white transition-colors">Sitemap</Link></p>
+            <p>© 2025 DUMMYCORP INDUSTRIES (Corporate Identity No: DC12345DM2020PTC987654) | <Link to="#" className="hover:text-white transition-colors">Sitemap</Link></p>
           </div>
         </div>
       </div>

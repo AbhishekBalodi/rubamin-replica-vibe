@@ -24,10 +24,10 @@ export const HeroSection = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <div className="text-white space-y-4 sm:space-y-6">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
-                CRAFTING CIRCULAR SUPPLY CHAIN FOR
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
+                DUMMY COMPANY CREATING SAMPLE SOLUTIONS FOR
                 <br />
-                <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl">STRATEGIC METALS</span>
+                <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl">EXAMPLE MATERIALS</span>
               </h1>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4 mt-6 sm:mt-8">
@@ -48,10 +48,10 @@ export const HeroSection = () => {
       {/* Bottom Actions */}
       <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-4 right-4 sm:left-auto sm:right-8 z-10 flex flex-col sm:flex-row md:flex-col gap-2 sm:gap-3 md:gap-4">
         <Button variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20 text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-2">
-          SUSTAINABILITY REPORT FY '24 | FY '23
+          SAMPLE REPORT FY '24 | FY '23
         </Button>
         <Button variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20 text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-2">
-          LITHIUM-ION BATTERY RECYCLING VIDEO →
+          DUMMY PROCESS OVERVIEW VIDEO →
         </Button>
       </div>
     </section>

@@ -52,10 +52,10 @@ export const Navigation = ({ className }: NavigationProps) => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-green-500 rounded-sm flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">T</span>
+                <span className="text-white font-bold text-lg">D</span>
               </div>
               <span className="text-xl font-bold text-white font-roboto tracking-wider">
-                TECHCORP
+                DUMMYCORP
               </span>
             </Link>
           </div>

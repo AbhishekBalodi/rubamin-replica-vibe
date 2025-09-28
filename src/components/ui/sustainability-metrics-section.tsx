@@ -36,7 +36,7 @@ export const SustainabilityMetricsSection = () => {
     },
     {
       title: "Governance",
-      description: "TECHCORP focuses on improving transparency and accountability throughout its operations. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "DUMMYCORP focuses on improving transparency and accountability throughout its operations. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: governanceImg,
       link: "/sustainability#governance"
     }
