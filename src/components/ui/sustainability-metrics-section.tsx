@@ -43,19 +43,19 @@ export const SustainabilityMetricsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Metrics */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16 md:mb-20">
           {metrics.map((metric, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-techcorp-red mb-2">
+              <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-techcorp-red mb-2">
                 {metric.value}
               </div>
-              <div className="text-xl font-semibold text-techcorp-dark mb-2">
+              <div className="text-lg sm:text-xl font-semibold text-techcorp-dark mb-2">
                 {metric.label}
               </div>
-              <div className="text-gray-600 text-sm">
+              <div className="text-gray-600 text-sm sm:text-base px-2">
                 {metric.description}
               </div>
             </div>
@@ -63,11 +63,11 @@ export const SustainabilityMetricsSection = () => {
         </div>
 
         {/* Sustainability Pillars */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {sustainabilityPillars.map((pillar, index) => (
             <div key={index} className="group cursor-pointer">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-40 sm:h-48 overflow-hidden">
                   <img 
                     src={pillar.image} 
                     alt={pillar.title}
@@ -75,9 +75,9 @@ export const SustainabilityMetricsSection = () => {
                   />
                   <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors duration-300"></div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-techcorp-dark mb-4">{pillar.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{pillar.description}</p>
+                <div className="p-4 sm:p-6">
+                  <h3 className="text-xl sm:text-2xl font-bold text-techcorp-dark mb-3 sm:mb-4">{pillar.title}</h3>
+                  <p className="text-gray-700 leading-relaxed text-sm sm:text-base">{pillar.description}</p>
                 </div>
               </div>
             </div>
